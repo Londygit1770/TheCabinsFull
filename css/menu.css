@@ -1,7 +1,7 @@
 menu{
   width: 100%;
   position: fixed;
-  z-index: 999;
+  z-index: 99;
 	top: 0;
 	left: 0;
 	height: 100%;
@@ -24,7 +24,9 @@ menu{
   justify-content: left;
    /* left: calc(100% - 200px);  */
    transition: transform 0.5s; 
+   padding-top: calc(100px);
 }
+.menu-two
  .menu.active {
 	 transform: translateX(85%);
   transition: transform 0.5s; 

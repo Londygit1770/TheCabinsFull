@@ -117,7 +117,6 @@
   transition: 0.5s;
 }
 .play_btn:hover svg path {
-  fill: #5b6460;
   transition: 0.5s;
 }
 .right{
@@ -609,6 +608,12 @@
   }
 }
 @media screen and (max-width: 460px) {
+  .burger-menu{
+    position: absolute;
+   left: 85%; 
+   z-index: 99;
+   
+ }
   .menu-two{
     min-height: 100vh;
     width: 40%;

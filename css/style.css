@@ -242,8 +242,9 @@ margin-top: 10%;
 /* .svg-head:active{
 } */
 .burger-menu{
-  /* position: absolute;
-  left: 90%; */
+   position: absolute;
+  left: 90%; 
+  z-index: 99;
   display: none;
 }
 .play_btn .svg-play {
@@ -281,6 +282,6 @@ margin-top: 10%;
   transition: 0.5s;
 }
 .play_btn:hover svg path {
-  fill: #5b6460;
+  fill: #353535;
   transition: 0.5s;
 }
